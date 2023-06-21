@@ -70,16 +70,27 @@ class NoteListPage extends StatelessWidget {
           actions: [
             TextButton(
               onPressed: () {
-                final note = Note(
-                  id: DateTime.now().toString(),
-                  title: titleController.text,
-                  content: contentController.text,
-                );
-                noteController.addNote(note).then((value) {
-                  Navigator.pop(context);
-                  titleController.clear();
-                  contentController.clear();
-                });
+                if (titleController.text == "") {
+                  showDialog(
+                    context: context,
+                    builder: (context) => AlertDialog(
+                      content: Text(
+                        "Judul Tidak Boleh Kosong",
+                      ),
+                    ),
+                  );
+                } else {
+                  final note = Note(
+                    id: DateTime.now().toString(),
+                    title: titleController.text,
+                    content: contentController.text,
+                  );
+                  noteController.addNote(note).then((value) {
+                    Navigator.pop(context);
+                    titleController.clear();
+                    contentController.clear();
+                  });
+                }
               },
               child: const Text('Save'),
             ),
