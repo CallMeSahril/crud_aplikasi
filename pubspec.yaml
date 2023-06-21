@@ -34,7 +34,6 @@ dependencies:
   flutter:
     sdk: flutter
   get: ^4.6.5
-  protobuf: ^3.0.0
 
 dev_dependencies:
   flutter_lints: ^2.0.0
