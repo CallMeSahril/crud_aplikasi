@@ -1,16 +1,31 @@
-# crud_aplikasi
+Berikut adalah contoh README untuk proyek CRUD aplikasi yang menggunakan Flutter, Firebase, dan state management GetX di GitHub:
 
-A new Flutter project.
+# CRUD APLIKASI
 
-## Getting Started
+Aplikasi CRUD menggunakan Flutter, Firebase, dan state management GetX.
 
-This project is a starting point for a Flutter application.
+## UI
+<img width="299" alt="Screenshot 2023-06-23 155404" src="https://github.com/CallMeSahril/crud_aplikasi/assets/103849124/a4fbb854-8ca6-47c1-82c3-39e9dd23d12a">
+<img width="241" alt="Screenshot 2023-06-23 155533" src="https://github.com/CallMeSahril/crud_aplikasi/assets/103849124/43887e7a-8661-476b-a73d-b07636a3373d">
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Deskripsi
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Aplikasi ini adalah contoh implementasi CRUD (Create, Read, Update, Delete) menggunakan Flutter, Firebase sebagai backend dan layanan penyimpanan data, serta state management GetX untuk mengelola keadaan aplikasi.
+
+Fitur-fitur aplikasi ini meliputi:
+
+- Menambahkan entri baru ke database Firebase.
+- Menampilkan daftar entri dari database Firebase.
+- Mengedit entri yang ada di database Firebase.
+- Menghapus entri dari database Firebase.
+
+## Instalasi
+
+
+
+ Jalankan perintah berikut untuk menginstal semua dependensi:
+
+   ```
+   flutter pub get
+   ```
