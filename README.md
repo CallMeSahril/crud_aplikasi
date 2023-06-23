@@ -1,4 +1,3 @@
-Berikut adalah contoh README untuk proyek CRUD aplikasi yang menggunakan Flutter, Firebase, dan state management GetX di GitHub:
 
 # CRUD APLIKASI
 
